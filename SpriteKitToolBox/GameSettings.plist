@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControllerOptions</key>
+	<string></string>
+	<key>PlayerOptions</key>
+	<dict>
+		<key>jump</key>
+		<dict>
+			<key>speed</key>
+			<real>500</real>
+			<key>hangtime</key>
+			<real>0.25</real>
+			<key>maxJumps</key>
+			<integer>2</integer>
+		</dict>
+		<key>walk</key>
+		<dict>
+			<key>maxSpeed</key>
+			<real>500</real>
+			<key>acceleration</key>
+			<integer>30</integer>
+			<key>drag</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE09B5B41AB0E45500CBEF39 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09B5B31AB0E45500CBEF39 /* PlayerNode.swift */; };
+		CE09B5B61AB0E46600CBEF39 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09B5B51AB0E46600CBEF39 /* PlayerController.swift */; };
+		CE09B5BA1AB0E4FD00CBEF39 /* GameSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE09B5B91AB0E4FD00CBEF39 /* GameSettings.plist */; };
+		CE5BD7DF1AAFD75100A6A8B6 /* ToolboxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BD7DE1AAFD75100A6A8B6 /* ToolboxUtils.swift */; };
 		CEEC8C321AAE59C5000F63F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC8C311AAE59C5000F63F9 /* AppDelegate.swift */; };
 		CEEC8C341AAE59C5000F63F9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CEEC8C331AAE59C5000F63F9 /* GameScene.sks */; };
 		CEEC8C361AAE59C5000F63F9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC8C351AAE59C5000F63F9 /* GameScene.swift */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE09B5B31AB0E45500CBEF39 /* PlayerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		CE09B5B51AB0E46600CBEF39 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		CE09B5B91AB0E4FD00CBEF39 /* GameSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameSettings.plist; sourceTree = "<group>"; };
+		CE5BD7DE1AAFD75100A6A8B6 /* ToolboxUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolboxUtils.swift; sourceTree = "<group>"; };
 		CEEC8C2C1AAE59C5000F63F9 /* SpriteKitToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEC8C301AAE59C5000F63F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEEC8C311AAE59C5000F63F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,9 +94,13 @@
 				CEEC8C351AAE59C5000F63F9 /* GameScene.swift */,
 				CEEC8C371AAE59C5000F63F9 /* GameViewController.swift */,
 				CEEC8C391AAE59C5000F63F9 /* Main.storyboard */,
+				CE5BD7DE1AAFD75100A6A8B6 /* ToolboxUtils.swift */,
 				CEEC8C3C1AAE59C5000F63F9 /* Images.xcassets */,
 				CEEC8C3E1AAE59C5000F63F9 /* LaunchScreen.xib */,
+				CE09B5B31AB0E45500CBEF39 /* PlayerNode.swift */,
 				CEEC8C2F1AAE59C5000F63F9 /* Supporting Files */,
+				CE09B5B51AB0E46600CBEF39 /* PlayerController.swift */,
+				CE09B5B91AB0E4FD00CBEF39 /* GameSettings.plist */,
 			);
 			path = SpriteKitToolBox;
 			sourceTree = "<group>";
@@ -200,6 +212,7 @@
 			files = (
 				CEEC8C401AAE59C5000F63F9 /* LaunchScreen.xib in Resources */,
 				CEEC8C3D1AAE59C5000F63F9 /* Images.xcassets in Resources */,
+				CE09B5BA1AB0E4FD00CBEF39 /* GameSettings.plist in Resources */,
 				CEEC8C341AAE59C5000F63F9 /* GameScene.sks in Resources */,
 				CEEC8C3B1AAE59C5000F63F9 /* Main.storyboard in Resources */,
 			);
@@ -220,8 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEC8C361AAE59C5000F63F9 /* GameScene.swift in Sources */,
+				CE5BD7DF1AAFD75100A6A8B6 /* ToolboxUtils.swift in Sources */,
+				CE09B5B61AB0E46600CBEF39 /* PlayerController.swift in Sources */,
 				CEEC8C381AAE59C5000F63F9 /* GameViewController.swift in Sources */,
 				CEEC8C321AAE59C5000F63F9 /* AppDelegate.swift in Sources */,
+				CE09B5B41AB0E45500CBEF39 /* PlayerNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpriteKitToolBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpriteKitToolBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -417,6 +435,7 @@
 				CEEC8C511AAE59C5000F63F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEEC8C521AAE59C5000F63F9 /* Build configuration list for PBXNativeTarget "SpriteKitToolBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +444,7 @@
 				CEEC8C541AAE59C5000F63F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
